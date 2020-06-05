@@ -104,7 +104,8 @@ git clone https://github.com/rsjudka/intelligent-auto
 cd intelligent-auto
 ```
 It is assumed you have cloned this repo with all submodules and are in it’s root directory before moving on.  Pay close attention to the next steps as they are split between whether or not a raspberry pi is used.
-If not on a Raspberry Pi, use the following commands:
+
+If ### NOT ### on a Raspberry Pi, use the following commands:
 ```
 mkdir build
 cd build
@@ -123,39 +124,39 @@ make
 Building the IA Dash will create the ia binary in <build folder>/bin/.  Depending on what you're running it on, you may need to make some adjustments to your system.
 
 Some things to consider when configuring your system:
-[]	Utilize a desktop environment that supports transparency (consider using XFCE on Raspberry Pi)
-[]	Set the background color to black and hide any desktop elements (icons, panel, dock, etc.)
-[]	Set USB permissions (/etc/udev/rules.d/<rules file>)
+*	Utilize a desktop environment that supports transparency (consider using XFCE on Raspberry Pi)
+*	Set the background color to black and hide any desktop elements (icons, panel, dock, etc.)
+*	Set USB permissions (/etc/udev/rules.d/<rules file>)
 
 ### Gotchas
 
-Brightness Control
+### Brightness Control
 
 There are options for which brightness module is utilized.  If you aren’t using the official Raspberry Pi 7” touchscreen, choose the “mocked” option.  In this mode however, adjusting the brightness does not actually change the screens brightness, it only changes the opacity of the window.
 
-Bluetooth
+### Bluetooth
 
 Authentication of bluetooth connections are not handled in the application (i.e. the first time you are connecting a device). To keep things simple, you could install a package like blueman which will prompt you for the necessary actions. If you are still having problems, you may need to try manually authenticating the bluetooth connection.
 
-OBD-II
+### OBD-II
 
 There is currently no option for setting the OBD-II interface. Currently it is assumed that an adapter is connected on /dev/ttyUSB0.
 Settings are saved periodically every 10 seconds (or anytime the save button is clicked).
 Not all OpenAuto settings are accessible.
 
-GStreamer
+### GStreamer
 
 If using GStreamer for your video backend, you may get some black bars around the margins of OpenAuto. I'm still trying to figure out a way for it to ignore the aspect ratio.
 
 
-Future Features/Enhancements
+### Future Features/Enhancements (in no particular order)
 
-[]	Radio player (UI elements exist, just haven't had anything to interface with yet)
-[]	Support Bluetooth OBD-II/CANBUS adapter
-[]	Wireless hotspot controls
-[]	Modular OBD-II Data & Error Code tabs
-[]	Automatic Light/Dark mode (RTC capabilites)
-[]	Audio Equalizer
-[]	dashcam video tab
-[]	Ignore apsect ratio of OpenAuto for GStreamer backend
+*	Radio player (UI elements exist, just haven't had anything to interface with yet)
+*	Support Bluetooth OBD-II/CANBUS adapter
+*	Wireless hotspot controls
+*	Modular OBD-II Data & Error Code tabs
+*	Automatic Light/Dark mode (RTC capabilites)
+*	Audio Equalizer
+*	dashcam video tab
+*	Ignore apsect ratio of OpenAuto for GStreamer backend
 
