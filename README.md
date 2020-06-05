@@ -3,23 +3,17 @@
 Intelligent-Auto is a Qt-based infotainment center for your current Linux OpenAuto installation!
 Main features include:
 
-*	Embedded OpenAuto
-  >>* Windowed/Fullscreen
+*	Embedded OpenAuto `Windowed/Fullscreen`
 *	Wireless OpenAuto Capability
 *	On-screen Volume Control
-*	Responsive Scalable UI (Adjusts to any screen size)
+*	Responsive Scalable UI `Adjusts to any screen size`
 *	Bluetooth Media Control
-*	Real-Time Vehicle OBD-II Data – Read-Only
-*	Theming 
-  >>* Dark/Light mode
-  >>* Selectable Accent Colors (Fire, Azure, Lilac, Jade, Rose, Steel)
+*	Real-Time Vehicle OBD-II Data `Read-Only`
+*	Theming `Dark/Light mode` `Selectable Accent Colors (Fire, Azure, Lilac, Jade, Rose, Steel)`
 *	True Raspberry Pi 7” Official Touchscreen Brightness Control
 *	App-Launcher built in
-*	Camera Access (Streaming/Local)
-  >>*	Backup
-  >>*	Dash 
-*	Keyboard Shortcuts
-  >>*	GPIO Triggerable
+*	Camera Access `Streaming/Local` `Backup` `Dash`
+*	Keyboard Shortcuts `GPIO Triggerable`
 
 
 ![home](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/home.png)
@@ -34,11 +28,13 @@ Main features include:
 
 ![settings](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/settings.png)
 
-## Getting Started
+# Getting Started
 
-### Prerequisites
+## Prerequisites
+
 The following packages have been used while developing this application.
-###(NOTE some things may be missing and others are not actually needed)
+> **(NOTE some things may be missing and others are not actually needed)**
+
 Install the following packages:
 *	alsa-utils
 *	cmake
@@ -64,11 +60,11 @@ Install the following packages:
 sudo apt update
 sudo apt install <package>
 ```
-### * NOTE add multiple packages with a single space between
+> **NOTE add multiple packages with a single space between**
 
 If you plan on using the Qt video library instead of the OMX library (i.e. not using a Raspberry Pi) you'll also most likely want to install the following packages:
 
-### **The option to build with the Qt Video Library instead is available when using a Raspberry Pi 3 (or later) or another Linux device:
+>> **The option to build with the Qt Video Library instead is available when using a Raspberry Pi 3 (or later) or another Linux device:**
 
 *	libgstreamer1.0-0
 *	gstreamer1.0-plugins-base
