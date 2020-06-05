@@ -4,22 +4,22 @@ Intelligent-Auto is a Qt-based infotainment center for your current Linux OpenAu
 Main features include:
 
 *	Embedded OpenAuto
-###*	Windowed/Fullscreen
+  >>* Windowed/Fullscreen
 *	Wireless OpenAuto Capability
 *	On-screen Volume Control
 *	Responsive Scalable UI (Adjusts to any screen size)
 *	Bluetooth Media Control
 *	Real-Time Vehicle OBD-II Data – Read-Only
 *	Theming 
-###* o	Dark/Light mode
-###* o	Selectable Accent Colors (Fire, Azure, Lilac, Jade, Rose, Steel)
+  >>* Dark/Light mode
+  >>* Selectable Accent Colors (Fire, Azure, Lilac, Jade, Rose, Steel)
 *	True Raspberry Pi 7” Official Touchscreen Brightness Control
 *	App-Launcher built in
 *	Camera Access (Streaming/Local)
-###* o	Backup
-###* o	Dash 
+  >>*	Backup
+  >>*	Dash 
 *	Keyboard Shortcuts
-###* o	GPIO Triggerable
+  >>*	GPIO Triggerable
 
 
 ![home](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/home.png)
@@ -87,7 +87,7 @@ If you plan on using the Qt video library instead of the OMX library (i.e. not u
 ```
 sudo apt install <package>
 ```
-NOTE add multiple packages with a single space between
+### NOTE add multiple packages with a single space between
 
 Raspberry Pi Specifically
 For a Raspberry Pi, you will also need to run the following commands to build the ilclient:
@@ -105,7 +105,7 @@ cd intelligent-auto
 ```
 It is assumed you have cloned this repo with all submodules and are in it’s root directory before moving on.  Pay close attention to the next steps as they are split between whether or not a raspberry pi is used.
 
-If ### NOT ### on a Raspberry Pi, use the following commands:
+If NOT on a Raspberry Pi, use the following commands:
 ```
 mkdir build
 cd build
@@ -121,7 +121,7 @@ make
 ```
 ### Running
 
-Building the IA Dash will create the ia binary in <build folder>/bin/.  Depending on what you're running it on, you may need to make some adjustments to your system.
+Building the IA Dash will create the ```ia``` binary in <build folder>/bin/.  Depending on what you're running it on, you may need to make some adjustments to your system.
 
 Some things to consider when configuring your system:
 *	Utilize a desktop environment that supports transparency (consider using XFCE on Raspberry Pi)
@@ -136,7 +136,7 @@ There are options for which brightness module is utilized.  If you aren’t usin
 
 ### Bluetooth
 
-Authentication of bluetooth connections are not handled in the application (i.e. the first time you are connecting a device). To keep things simple, you could install a package like blueman which will prompt you for the necessary actions. If you are still having problems, you may need to try manually authenticating the bluetooth connection.
+Authentication of bluetooth connections are not handled in the application (i.e. the first time you are connecting a device). To keep things simple, you could install a package like ```blueman``` which will prompt you for the necessary actions. If you are still having problems, you may need to try manually authenticating the bluetooth connection.
 
 ### OBD-II
 
