@@ -18,17 +18,8 @@ Main features include:
 *	Keyboard Shortcuts `GPIO Triggerable`
 
 
-![home](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/home.png)
+![home](https://github.com/robert5974/intelligent-auto/blob/master/docs/imgs/IA_layered_banner.png)
 
-![openauto_maps](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/openauto_maps.png)
-
-![openauto_spotify](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/openauto_spotify.png)
-
-![media](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/media.png)
-
-![data](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/data.png)
-
-![settings](https://github.com/rsjudka/intelligent-auto/blob/master/docs/imgs/settings.png)
 
 # Getting Started
 
