@@ -23,6 +23,15 @@ Main features include:
 
 # Getting Started
 
+## Script Install
+
+**Install.sh Automated Install (Raspberry Pi Only)
+First, run the executable script with the following command:
+
+```./install.sh```
+Video Walk through
+[installscript](https://youtu.be/EIS7Vx9JuL0)
+
 ## Prerequisites
 
 The following packages have been used while developing this application.
