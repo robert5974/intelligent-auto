@@ -25,10 +25,15 @@ Main features include:
 
 ## Script Install
 
-**Install.sh Automated Install (Raspberry Pi Only)
+**Install.sh Automated Install (Raspberry Pi Only)**
+
 First, run the executable script with the following command:
 
 ```./install.sh```
+
+Once installed the IA dash app will start up, to run afterwards, navigate to ~/intelligent-auto/bin folder and run the following command:
+```./ia```
+
 Video Walk through
 [installscript](https://youtu.be/EIS7Vx9JuL0)
 
