@@ -1,6 +1,6 @@
 
 
-![logo](https://github.com/robert5974/intelligent-auto/blob/master/docs/imgs/IA_logo.png)
+![logo](https://github.com/robert5974/intelligent-auto/blob/master/docs/imgs/IA_opendash_logo.png)
 
 Intelligent-Auto is a Qt-based infotainment center for your current Linux OpenAuto installation!
 Main features include:
